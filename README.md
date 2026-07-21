@@ -6,6 +6,8 @@
 ## <a id="english"></a> 🇺🇸 English Version
 
  **[Live Demo: Click here to access the application](https://ticket-dashboard-pt.vercel.app/en.html)**
+<img width="1914" height="866" alt="image" src="https://github.com/user-attachments/assets/23865844-c606-4990-b0de-3782cce157cf" />
+
 
 This project is a modern, responsive Front-End dashboard built to manage service requests and track SLAs. It serves as the visual interface (UI/UX) for my automated triage and ticket management workflow portfolio.
 
@@ -24,6 +26,7 @@ This project is a modern, responsive Front-End dashboard built to manage service
 ## <a id="português"></a> 🇧🇷 Versão em Português
 
 **[Live Demo: Clique aqui para acessar a aplicação](https://ticket-dashboard-pt.vercel.app/)**
+<img width="1917" height="851" alt="image" src="https://github.com/user-attachments/assets/35734ca4-8d0a-4129-a3f2-64f0defb0109" />
 
 Este projeto é um painel Front-End moderno e responsivo criado para o gerenciamento de chamados e rastreamento de prazos (SLAs). Ele atua como a interface visual (UI/UX) do meu portfólio de triagem automatizada e gestão de tickets.
 
