@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Painel de Chamados | PublicDesk</title>
-    <!-- Importando o Tailwind CSS direto (Eficiência máxima) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -13,7 +12,6 @@
 </head>
 <body class="bg-slate-50 text-slate-900 flex min-h-screen">
 
-    <!-- Menu Lateral (Sidebar) -->
     <aside class="w-64 bg-white border-r border-slate-200 px-6 py-8 hidden md:block">
         <h2 class="text-2xl font-bold text-blue-600 tracking-tight mb-8">PublicDesk.</h2>
         <nav class="space-y-2">
@@ -24,20 +22,22 @@
         </nav>
     </aside>
 
-    <!-- Conteúdo Principal -->
     <main class="flex-1 p-6 md:p-8">
-        <!-- Cabeçalho -->
         <header class="flex flex-col md:flex-row md:justify-between md:items-center mb-8 gap-4">
             <div>
                 <h1 class="text-2xl font-bold text-slate-800">Gestão de Demandas</h1>
                 <p class="text-sm text-slate-500 mt-1">Visão geral e triagem de chamados abertos.</p>
             </div>
-            <button class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-md font-medium shadow-sm transition">
-                + Novo Chamado
-            </button>
+            <div class="flex items-center gap-4">
+                <a href="en.html" class="text-sm font-medium text-slate-500 hover:text-slate-800 transition border border-slate-300 px-3 py-1.5 rounded-md">
+                    🇺🇸 EN
+                </a>
+                <button class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 rounded-md font-medium shadow-sm transition">
+                    + Novo Chamado
+                </button>
+            </div>
         </header>
 
-        <!-- Cartões de Resumo (Cards) -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm border-l-4 border-l-blue-500">
                 <h3 class="text-sm font-medium text-slate-500 mb-1">Chamados Abertos</h3>
@@ -53,7 +53,6 @@
             </div>
         </div>
 
-        <!-- Tabela de Chamados -->
         <div class="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
             <div class="px-6 py-4 border-b border-slate-200 flex flex-col md:flex-row md:justify-between md:items-center bg-slate-50/50 gap-4">
                 <h2 class="text-lg font-semibold text-slate-800">Demandas Recentes</h2>
@@ -72,7 +71,6 @@
                         </tr>
                     </thead>
                     <tbody class="divide-y divide-slate-200">
-                        <!-- Linha 1 -->
                         <tr class="hover:bg-slate-50 transition">
                             <td class="px-6 py-4 font-medium text-slate-900">#1042</td>
                             <td class="px-6 py-4">Maria A. Silva</td>
@@ -81,7 +79,6 @@
                             <td class="px-6 py-4"><span class="text-amber-600 font-medium">Aberto</span></td>
                             <td class="px-6 py-4 text-right"><button class="text-blue-600 hover:text-blue-800 font-medium">Abrir</button></td>
                         </tr>
-                        <!-- Linha 2 -->
                         <tr class="hover:bg-slate-50 transition">
                             <td class="px-6 py-4 font-medium text-slate-900">#1041</td>
                             <td class="px-6 py-4">João C. Mendes</td>
@@ -90,7 +87,6 @@
                             <td class="px-6 py-4"><span class="text-blue-600 font-medium">Em Andamento</span></td>
                             <td class="px-6 py-4 text-right"><button class="text-blue-600 hover:text-blue-800 font-medium">Abrir</button></td>
                         </tr>
-                        <!-- Linha 3 -->
                         <tr class="hover:bg-slate-50 transition">
                             <td class="px-6 py-4 font-medium text-slate-900">#1040</td>
                             <td class="px-6 py-4">Ana P. Costa</td>
