@@ -5,7 +5,7 @@
 
 ## <a id="english"></a> 🇺🇸 English Version
 
-🔴 **[Live Demo: Click here to access the application](https://ticket-dashboard-pt.vercel.app/en.html)**
+ **[Live Demo: Click here to access the application](https://ticket-dashboard-pt.vercel.app/en.html)**
 
 This project is a modern, responsive Front-End dashboard built to manage service requests and track SLAs. It serves as the visual interface (UI/UX) for my automated triage and ticket management workflow portfolio.
 
@@ -14,7 +14,7 @@ This project is a modern, responsive Front-End dashboard built to manage service
 * **Tailwind CSS:** Utility-first styling to build a clean, corporate SaaS-level design without relying on heavy frameworks.
 * **Bilingual Architecture:** Native page toggle between English and Portuguese environments.
 
-### ✨ Features
+### Features
 * **Metrics Overview:** KPI cards highlighting Open Tickets, Overdue SLAs, and recently Resolved demands.
 * **Ticket Tracking:** Dynamic data table with status badges and priority tracking.
 * **Responsive Design:** Fully adaptable layout for seamless use on desktop and mobile devices.
