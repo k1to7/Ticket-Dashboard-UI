@@ -23,7 +23,7 @@ This project is a modern, responsive Front-End dashboard built to manage service
 
 ## <a id="português"></a> 🇧🇷 Versão em Português
 
-**[Live Demo: Clique aqui para acessar a aplicação](https://ticket-dashboard-ui-eight.vercel.app/)**
+**[Live Demo: Clique aqui para acessar a aplicação](https://ticket-dashboard-pt.vercel.app/)**
 
 Este projeto é um painel Front-End moderno e responsivo criado para o gerenciamento de chamados e rastreamento de prazos (SLAs). Ele atua como a interface visual (UI/UX) do meu portfólio de triagem automatizada e gestão de tickets.
 
