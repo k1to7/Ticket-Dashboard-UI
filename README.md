@@ -5,7 +5,7 @@
 
 ## <a id="english"></a> 🇺🇸 English Version
 
-🔴 **[Live Demo: Click here to access the application]([COLE SEU LINK DA VERCEL AQUI])**
+🔴 **[Live Demo: Click here to access the application](https://ticket-dashboard-pt.vercel.app/en.html)**
 
 This project is a modern, responsive Front-End dashboard built to manage service requests and track SLAs. It serves as the visual interface (UI/UX) for my automated triage and ticket management workflow portfolio.
 
